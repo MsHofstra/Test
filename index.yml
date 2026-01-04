@@ -7,5 +7,8 @@ contacts:
   - displayName: MsHofstra
     pictureUrl: https://avatars.githubusercontent.com/u/252882881?v=4
     homePageUrl: https://github.com/MsHofstra
+files:
+  - path: course1/test.py
+    content: adfasdf
 units:
   - unit1/index.yml
