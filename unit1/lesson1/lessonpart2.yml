@@ -1,0 +1,107 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Page
+content: >
+  In this lesson, we will explore how to create and manipulate text files using
+  Python. We'll also learn how to use shortcuts for naming files to streamline
+  our coding process.
+
+
+  ### Creating a Text File
+
+
+  To create a text file in Python, you can use the `open()` function with the
+  mode `'w'` for writing. Here's a simple example:
+
+
+  ```python
+
+  # Create a new text file
+
+  file = open('example.txt', 'w')
+
+
+  # Write some text to the file
+
+  file.write('Hello, this is a test file.')
+
+
+  # Close the file
+
+  file.close()
+
+  ```
+
+
+  ### Reading a Text File
+
+
+  To read from a text file, use the `open()` function with the mode `'r'`.
+  Here's how you can read the contents of a file:
+
+
+  ```python
+
+  # Open the file for reading
+
+  file = open('example.txt', 'r')
+
+
+  # Read the contents
+
+  content = file.read()
+
+
+  # Print the contents
+
+  print(content)
+
+
+  # Close the file
+
+  file.close()
+
+  ```
+
+
+  ### Using Shortcuts for File Names
+
+
+  When working with multiple files, it's helpful to use shortcuts or variables
+  for file names. This makes your code more manageable and reduces errors.
+  Here's an example:
+
+
+  ```python
+
+  # Define a shortcut for the file name
+
+  file_name = 'example.txt'
+
+
+  # Open the file using the shortcut
+
+  file = open(file_name, 'w')
+
+  file.write('This is another test.')
+
+  file.close()
+
+
+  # Read the file using the shortcut
+
+  file = open(file_name, 'r')
+
+  print(file.read())
+
+  file.close()
+
+  ```
+
+
+  ### Summary
+
+
+  By using shortcuts for file names, you can easily manage and manipulate files
+  in your Python projects. This approach not only saves time but also makes your
+  code cleaner and more efficient.
